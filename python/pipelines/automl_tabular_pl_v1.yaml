@@ -7429,7 +7429,7 @@ root:
         defaultValue: 0.0
         parameterType: BOOLEAN
       stage_1_num_parallel_trials:
-        defaultValue: 35.0
+        defaultValue: 15.0
         parameterType: NUMBER_INTEGER
       stage_1_tuner_worker_pool_specs_override:
         parameterType: LIST
@@ -7437,7 +7437,7 @@ root:
         defaultValue: ''
         parameterType: STRING
       stage_2_num_parallel_trials:
-        defaultValue: 35.0
+        defaultValue: 15.0
         parameterType: NUMBER_INTEGER
       stage_2_num_selected_trials:
         defaultValue: 5.0

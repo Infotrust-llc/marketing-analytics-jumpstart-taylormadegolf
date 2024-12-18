@@ -43,9 +43,9 @@
 #    root_dir: str
 #    run_distillation: bool [Default: False]
 #    run_evaluation: bool [Default: False]
-#    stage_1_num_parallel_trials: int [Default: 35.0]
+#    stage_1_num_parallel_trials: int [Default: 15.0]
 #    stage_1_tuner_worker_pool_specs_override: list
-#    stage_2_num_parallel_trials: int [Default: 35.0]
+#    stage_2_num_parallel_trials: int [Default: 15.0]
 #    stage_2_num_selected_trials: int [Default: 5.0]
 #    stats_and_example_gen_dataflow_disk_size_gb: int [Default: 40.0]
 #    stats_and_example_gen_dataflow_machine_type: str [Default: 'n1-standard-16']
@@ -11356,7 +11356,7 @@ root:
         isOptional: true
         parameterType: BOOLEAN
       stage_1_num_parallel_trials:
-        defaultValue: 35.0
+        defaultValue: 15.0
         description: Number of parallel trails for stage 1.
         isOptional: true
         parameterType: NUMBER_INTEGER
@@ -11367,7 +11367,7 @@ root:
         isOptional: true
         parameterType: LIST
       stage_2_num_parallel_trials:
-        defaultValue: 35.0
+        defaultValue: 15.0
         description: Number of parallel trails for stage 2.
         isOptional: true
         parameterType: NUMBER_INTEGER
